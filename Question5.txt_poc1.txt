@@ -1,0 +1,12 @@
+class Main 
+{
+	public static void main(String[] args) 
+	{
+		int t;
+		System.out.println("Value of variable t : "+t);
+	}
+}
+
+Output:
+Error
+Explanation: Variable t might not have Initialize.

@@ -1,0 +1,47 @@
+
+class Square
+{
+	public void Area(double side)
+	{
+		double calArea = side * side;
+		System.out.println("Area of Square is:\t"+calArea);
+	}
+	public void Perimeter(double side)
+         {
+	    double calPerimeter = 4 * side;
+              System.out.println("Perimeter of Square is:\t"+calPerimeter);
+	}
+}
+class Rectangle 
+{
+	public void Area(double length, double breadth)
+	{
+		double calArea = length * breadth;
+		System.out.println("Area of Rectangle is:\t"+calArea);
+	}
+	public void Perimeter(double length, double breadth)
+	{
+	        double calPerimeter = 2 * (length + breadth);
+	        System.out.println("Area of Rectangle is:\t"+calPerimeter);
+	}
+}
+
+class MainClass
+{
+	public static void main(String[] args) 
+	{
+		Square obj1 = new Square();
+		Rectangle obj2 = new Rectangle();
+		
+		obj1.Area(2.0);
+		obj1.Perimeter(3.0);
+		obj2.Area(5.0,2.0);
+		obj2.Perimeter(2.0,1.0);
+	}
+}
+
+Output -
+Area of Square is:      4.0
+Perimeter of Square is: 12.0
+Area of Rectangle is:   10.0
+Area of Rectangle is:   6.0

@@ -1,0 +1,22 @@
+class Car 
+{
+	int wheels;
+	String model;
+
+	Car(int wheels, String model)
+	{
+		this.wheels = wheels;
+		this.model = model;
+		System.out.println("Wheels of the Car is :\t" +wheels);
+	}
+
+	public static void main(String[] args) 
+	{
+		Car obj = new Car(4,"Maruti Suzuki");
+	 	System.out.println("Model of the Car is :\t"+obj.model);
+	}
+}
+
+Output -
+Wheels of the Car is :  4
+Model of the Car is: Maruti Suzuki
